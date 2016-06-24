@@ -1,0 +1,62 @@
+Cell Culture
+
+The C2C12 murine myoblasts from ATCC were grown in DMEM with 10% FCS and 1% Penicillin and Streptomycin at 37°C and 5% CO2. The day before experiments, DMEM with red phenol was replaced by DMEM without red phenol. Immediatley before experiments, the culture medium was supplemented with 1,5% HEPES. 
+
+For the stretching experiments, 110 000 cells were seeded on PDMS disks (30mm diameter 0.3mm thickness, PDMS+10% curing agent from Sylbard Silicon Elastomer) coated with 5µg fibronectin, 24h before the begining of observation. 
+
+For the magnetic tweezers experiments, cells were seeded on 22mm*22mm glass coverslips coated with 5µg fibronectin, 24h before the beginning of observation. 
+
+Transfection and live markers
+
+SiRactine (spirochrome) was added at 50nM concentration the day before experiment, and left for all the duration of the experiment. 
+DAPI was added on live cells 30 minutes before experiment.
+
+The MRTF-A GFP plasmid was profided by Athanassia Sotiropoulos and has been described earlier (quel article faut-il citer exactement ? ). 
+
+D'où vient la LifeAct RFP ? Et l'Actine mCherry ? Et la F-tractin ? 
+
+All experiments except the experiments with SiRactin or with Actin-GFP were transfected using nanofectin. SiRactin and Actin-GFP experiments were transfected using lipofectamine 3000. 
+
+Cell Stretcher
+
+Streching experiments are performed using a custom built stretching device that allows to follow the stretched cells through time. 
+
+A disk of PDMS (30 mm in diameter, 0.3mm thickness) is maintained between two cylinders, placed with the face on which the cells are seeded down. The whole is placed in a cylindric tank which contain the culture medium. The bottom of the tank is made of a 30mm diameter glass coverslip, in order to observe the cells with an inverted microscope. 
+
+At time 0, a transparent plastic cylinder is pushed down, stretching the PDMS disk and thus the adherent cells on it. The distance between the initial position of the PDMS disk and the final position once it has been pushed determines the strain imposed on the disk. A calibration using a fluorescent fibronectin micropatterning showed an uniform radial strain. The amont of strain is in good agreement with the increase in area calculated from the geometry of the system. 
+(Copier ici la formule de calcul de l'augmentation de l'aire en fonction de l'enfoncement du plot)
+
+The strain is then maintained constant for the duration of the experiment (typically 90 to 120 minutes) , and the device placed immediately on the microscope for observation.  
+For live experiments, during the first twenty minutes, cells expressing MRTF-A GFP are searched and their position labelled. At most every ten minutes, an image is taken from each of the position recorded, allowing to follow each cell though time. 
+After a live experiment, the cells can be fixed for later observation and labelling of the final state. 
+
+For fixed experiments, the device is put back to the incubator after stretching. The strain is maintained for a determined time after which the cells are fixed in a 4% paraformaldehyde solution for 20 minutes. Control non-stretched experiments are mounted exactly in the same way, and then immediately fixed. 
+
+Magnetic Tweezers
+
+The electromagnet is made from a custom-build coil of 816 turns of 0.5mm copper wire forming 8 layers on a 66.5mm length. A cylindric mu-metal core (5.10mm diameter, 143.64mm length) with a 60° cone-shaped tip is placed inside the coil for for increasing the gradient of magnetic field. 
+The electromagnet is provided up to 1.2A through a home-made current generator controlled by a function generator (TG1010, TT Instruments). 
+
+The magnetic tweezers are used to apply local forces of the cell through fibronectin-coated super-paramagnetic beads. The beads are 4.5µm diameter Dynabeads M450 Expoxy (Invitrogen), coated with 5µg of fibronectin for 4.10^7 beads. 
+A calibration was made to obtain the force applied on a bead depending on the distance from the bead to the tip and on the current provided to the coil. Dynabeads were suspended in liquid PDMS of known viscosity. For each current provided to the electromagnet, the beads trajectory were filmed to extract the velocity versus distance to the tip relationship. Using Stokes law, a force - distance to the tip calibration was obtained for each current. 
+
+30 minutes before the experiment, the suspension of fibronetin-coated beads is added to the cells, and left to incubate for 30 minutes. Juste before experiment, the non-attached beads are removed by rinsing, and then the coverslip is mounted for observation. 
+
+The electromagnet and the core are mounted on a micro-manipulator (Inject-Man NI2, Eppendorf) at a 45° vertical angle. The axis of the core is aligned with the center of the observation zone, with 280µm distance from this center to the tip. At this distance, with the maximum 1.2 A current in the electromagnet, the force applied on a single bead is estimated to be 1nN. 
+
+A constant 1nN force is applied for 125s, followed by 125s with no force, this cycle being repeated 6 times, for a total time of observation of 25 minutes. At the end of each force application, an image in Bright Field and an image in GFP Channel are taken. 
+
+
+Sorting the cells according to MRTF-A GFP localization
+
+For all the experiments were MRTF-A GFP was transfected, the cells can be sorted according to the major localization of MRTF-A GFP in the cell. The cells where the nucleus is clearly visible and bright are labelled as cells with MRTF-A in major part in the nucleus (Nuclear MRTF-A, in blue in the graphs), whereas the cells where the nucleus is clearly visible and dark are labelled as with MRTF-A in major part in the cytoplasm (Cytoplasmic MRTF-A, in red). Cells on which the localization of the nucleus cannot be distiguished in green are labelled Homogeneous MRTF-A (in green in the graphs). 
+
+During a live imaging, the localization of MRTF-A GFP in the cells can change through time. When MRTF-A is accumulated in the nucleus, a cell can go from a cytoplasmic localization of MRTF-A to a homogeneous or a nuclear localization. On the contrary, when MRTF-A is expelled from the nucleus, the localization changes from nuclear to homogeneous and to cytoplasmic. The frequency of these events can be measured to assess for the dynamic changes of MRTF-A localization in response to stimuli. 
+
+Quantitative fluorescence analysis
+
+Area, Mean Intensity and Integrated Density of fluorescence was determined with ImageJ for three regions of each cell : the whole cell, the nuclear region and a perinuclear region of same thickness as the nuclear region. The whole cell and the perinuclear region are drawn by hand, whereas the nuclear region is determined by thresholding the DAPI staining. 
+
+A perinuclear to nuclear ratio can then be calculated to estimate quantitatively the localization of the labelled protein. 
+
+
