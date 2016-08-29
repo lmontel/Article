@@ -2,7 +2,7 @@ Cell Culture
 
 The C2C12 murine myoblasts from ATCC were grown in DMEM with 10% FCS and 1% Penicillin and Streptomycin at 37°C and 5% CO2. The day before experiments, DMEM with red phenol was replaced by DMEM without red phenol. Immediatley before experiments, the culture medium was supplemented with 1,5% HEPES. 
 
-For the stretching experiments, 110 000 cells were seeded on PDMS disks (30mm diameter 0.3mm thickness, PDMS+10% curing agent from Sylbard Silicon Elastomer) coated with 5µg fibronectin, 24h before the begining of observation. 
+For the stretching experiments, 110 000 cells were seeded on PDMS disks (30mm diameter 0.3mm thickness, PDMS+10% curing agent from Sylbard Silicon Elastomer) coated with 5µg fibronectin, 24h before the beginning of observation. 
 
 For the magnetic tweezers experiments, cells were seeded on 22mm*22mm glass coverslips coated with 5µg fibronectin, 24h before the beginning of observation. 
 
@@ -11,7 +11,7 @@ Transfection and live markers
 SiRactine (spirochrome) was added at 50nM concentration the day before experiment, and left for all the duration of the experiment. 
 DAPI was added on live cells 30 minutes before experiment.
 
-The MRTF-A GFP plasmid was profided by Athanassia Sotiropoulos and has been described earlier (quel article faut-il citer exactement ? ). 
+The MRTF-A GFP plasmid was provided by Athanassia Sotiropoulos and has been described earlier (quel article faut-il citer exactement ? ). 
 
 D'où vient la LifeAct RFP ? Et l'Actine mCherry ? Et la F-tractin ? 
 
